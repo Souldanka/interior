@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.padding-site{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    position: relative;
+    background-image: url(../img/maine_img/slider-img_1.jpg); 
+}
+.slider-text{
+    margin-top: 283px;
+
+}
+.slider-trendin{
+    margin-bottom: 14px;
+    width: 471px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(67, 160, 71, 1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.slider_h2{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgba(33, 33, 33, 1);
+    text-transform: uppercase;
+}
+.slider-content{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.button{
+    margin-top: 29px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px;
+    border-radius: 23px;
+    background-color: #ffffff; 
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+.button:active{
+    box-shadow:none;
+}
+
+.header{
+    padding-top: 63px;
+}
+.menu{
+    float: right;
+
+}
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+.menu li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu li a:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+
+
+.pagination{
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius:50%;
+    margin: 5px;
+}
+
+.circle-active{
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.circle:hover{
+    background-color: #212121;
+}
+
+.second_p{
+    height: 610px;
+}
+.p2_h2{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1)
+}
+.p2_h2:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+.s-h{
+    margin-left:31px;
+    width: 80px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+}
+.s-h:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+.s-h:hover{
+    color: #212121;
+}
+.p2-trendin{
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.p2-trendin:out-of-range{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+/* .img_1:hover{
+    background-image: url(../img/icons/back.png);
+    height: 270px;
+    width: 270px;
+} */
+.m_s{
+    height: 49px;
+    margin-bottom: 50px;
+}
+.cont_s{
+    margin-top: 120px;
+}
+
+.img_galery{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.path_3{
+    height: 683px;
+    display: flex;
+}
+.p_3_f{
+    width: 683px;
+    background-image: url(../img/maine_img/promo-img1.jpg);
+    
+}
+.p_3_s{
+    width: 683px;
+    background-image: url(../img/maine_img/promo-img.jpg);
+    
+}
+.p3-trendin{
+    margin-top: 228px;
+    margin-left: 50px;
+    height: 20px;
+    width: 400px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(30, 136, 229, 1);
+    letter-spacing: 0.1em;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.p3_h2{
+    margin-left: 50px;
+    margin-top: 11px;
+    height: 39px;
+    width: 400px;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+}
+.p3-content{
+    margin-left: 50px;
+    margin-top: 13px;
+    height: 39px;
+    width: 400px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(108, 108, 108, 1);
+    line-height: 24px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.btn-p3{
+    margin-left: 50px;
+    margin-top: 29px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px;
+    border-radius: 23px;
+    background-color: #ffffff; 
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.cont_p4{
+    height: 1108px;
+    margin-top: 119px;
+}
+.img_galery_pt4{
+    display:block;  
+    width: 1210px; 
+}
+.img_galery_pt4 img{
+       display: inline-block;
+       text-align: center;
+       padding: 0px 30px 30px 0px;
+}
+.menu_pt4{
+    display: inline-block;
+    width: 1170px;
+    margin-bottom: 64px;
+}
+.p4_h2{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+}
+.p4_h2:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+.p4-trendin{
+    float: right;
+    margin: 18px 0px 0px 0px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.p4-trendin:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+
+.slider_2{
+    height: 800px;
+    position: relative;
+    background-image: url(../img/maine_img/slider.jpg);
+}
+.slider_2_text{
+    padding-top: 287px;
+}
+.sliderT-trendin{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 470px;
+    color: rgba(229, 57, 53, 1);
+    letter-spacing: 0.1em;
+    line-height: 48px;
+}
+.sliderT_h2{
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.sliderT-content{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.path_5{
+   
+}
+.content{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.tr_1{
+    height: 570px;
+    width: 570px;
+    border-right: solid 30px #ffffff;
+    background-image: url(../img/maine_img/product-1-lg.jpg);
+}
+.tr_11{
+    height: 270px;
+    width: 270px;
+    border-right: solid 30px #ffffff;
+    border-bottom: solid 30px #ffffff;
+    background-image: url(../img/maine_img/product-2-sm.jpg);
+}
+.tr_12{
+    height: 270px;
+    width: 270px;
+    border-bottom: solid 30px #ffffff;
+    background-image: url(../img/maine_img/product-3-sm.jpg);
+}
+.tr_21{
+    height: 270px;
+    width: 270px;
+    border-right: solid 30px #ffffff;
+    background-image: url(../img/maine_img/product-4-sm.jpg);
+}
+.tr_22{
+    height: 270px;
+    width: 270px;
+    background-image: url(../img/maine_img/product-5-sm.jpg);
+}
+.cont_p5{
+    height: 206px;
+    width: 336px;
+    margin-left: 30px;
+}
+.p5-trendin{
+    height: 20px;
+    width: 340px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(30, 136, 229, 1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.p5_h2{
+    margin-top: 11px;
+    height: 39px;
+    width: 340px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+}
+
+.p5-content{
+    margin-top: 13px;
+    height: 39px;
+    width: 340px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(108, 108, 108, 1);
+    line-height: 24px;
+}
+.cont_p5 .btn-p3{
+    margin-left: 0;
+}
+.app{
+    height: 515px;
+    background-image: url(../img/maine_img/back-img.jpg); 
+}
+.app_info{
+    padding-top: 125px;
+    padding-bottom: 120px;
+    height: 271px;
+    width: 415px;
+}
+.app-trendin{
+    height: 20px;
+    width: 470px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.app_h2{
+    padding-top: 14px;
+    height: 126px;
+    width: 470px;
+    font-family: 'Montserrat';
+    font-size: 62px;
+    font-weight: 100;
+    color: rgba(33, 33, 33, 1);
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.app-content{
+    padding-top: 17px;
+    height: 21px;
+    width: 470px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(108, 108, 108, 1);
+    line-height: 24px;
+}
+.app_icon{
+    padding-top: 33px;
+}
+.footer{
+    margin-top: 120px;
+    margin-bottom: 67px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7";
+}
+.contact{
+    height: 139px;
+    width: 221px;
+}
+
+.content-trendin{
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.cont_info{
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(33, 33, 33, 1);
+}
+.con-2{
+    padding-top:29px;
+}
+
+.use_info{
+    display: inline-block;
+    height: 125px;
+    width: 470px;
+}
+
+.f_tabel{
+    float: left;
+    margin-top: 15px;
+    height: 106px;
+    width: 235px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.s_table{
+    float: right;
+    margin-top: 15px;
+    height: 106px;
+    width: 235px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.stay_touch{
+    height: 147px;
+    width: 370px;
+}
+.cot_stay{
+    margin-top: 15px;
+    height: 42px;
+    width: 370px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(33, 33, 33, 1);
+    line-height: 22px;
+}
+
+
+
+input[type="email"]{
+    position: relative;
+    margin-top: 20px;
+    height: 48px;
+    width: 370px;
+    padding-left:20px;
+    border:solid 1px black;
+}
+
+input[type="image"]{
+    position: absolute;
+    margin: -34px 0px 0px 350px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;  
+    background-color: #f7f7f7";
+}
+
+.foot_p1{
+    height: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    text-transform: uppercase;
+    }
+
+    
