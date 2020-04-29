@@ -54,15 +54,14 @@ body{
     margin-top: 20px;
     line-height: 24px;
 }
-.button{
-    margin-top: 29px;
+.slider-content-button {
+    margin-top: 30px;
     color: #212121;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    box-shadow: 0 2px 5px 1px;
     border-radius: 23px;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     width: 212px;
     height: 45px;
     line-height: 45px;
@@ -70,11 +69,27 @@ body{
     display: inline-block;
     text-decoration: none;
     letter-spacing: 3.6px;
+    position: relative;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    }
+    .slider-content-button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.55);
+    }
+    .slider-content-button-arrow {
+    width: 9px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 15.5px;
+    position: absolute;
+    display: none;
+    }
+    .slider-content-button:hover .slider-content-button-arrow {
+    display: inline-block;
+    }
+.path_3 .slider-content-button{
+    margin-left: 50px;
 }
-.button:active{
-    box-shadow:none;
-}
-
 .header{
     padding-top: 63px;
 }
@@ -89,6 +104,7 @@ body{
 .menu li a{
     list-style-type: none;
     text-decoration: none;
+    outline: none;
 }
 
 .menu-link {
@@ -158,7 +174,7 @@ body{
 .s-h:hover{
     color: #212121;
 }
-.p2-trendin{
+.explore{
     float: right;
     margin-top: 20px;
     font-size: 18px;
@@ -168,16 +184,25 @@ body{
     letter-spacing: 0.2em;
     line-height: 24px;
     text-transform: uppercase;
+
 }
+.explore:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+    .explore:hover .slider-content-button-arrow {
+    display: inline-block;
+    width: 9px;
+    height: 12px;
+    position: absolute;
+    margin-top:6px ;
+    }
+
 .p2-trendin:out-of-range{
     color: #212121;
     border-bottom: 1px solid black;
 }
-/* .img_1:hover{
-    background-image: url(../img/icons/back.png);
-    height: 270px;
-    width: 270px;
-} */
+
 .m_s{
     height: 49px;
     margin-bottom: 50px;
@@ -278,6 +303,7 @@ body{
 .menu_pt4{
     display: inline-block;
     width: 1170px;
+    height: 44px;
     margin-bottom: 64px;
 }
 .p4_h2{
@@ -290,7 +316,7 @@ body{
     color: #212121;
     border-bottom: 1px solid black;
 }
-.p4-trendin{
+/* .p4-trendin{
     float: right;
     margin: 18px 0px 0px 0px;
     font-weight: bold;
@@ -299,11 +325,7 @@ body{
     letter-spacing: 0.2em;
     line-height: 24px;
     text-transform: uppercase;
-}
-.p4-trendin:hover{
-    color: #212121;
-    border-bottom: 1px solid black;
-}
+} */
 
 .slider_2{
     height: 800px;
@@ -338,9 +360,6 @@ body{
     line-height: 24px;
 }
 
-.path_5{
-   
-}
 .content{
     margin-top: 120px;
     margin-bottom: 120px;
@@ -456,12 +475,20 @@ body{
     padding-top: 33px;
 }
 .footer{
-    margin-top: 120px;
-    margin-bottom: 67px;
+    padding-top: 120px;
+    padding-bottom: 67px;
     display: flex;
     justify-content: space-between;
-    background-color: #f7f7f7";
+    background-color:#F7F7F7;
 }
+.footer_inf_a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    }
+    .footer_inf_a:hover{
+        border-bottom: 1px solid black;
+    }
 .contact{
     height: 139px;
     width: 221px;
@@ -538,20 +565,25 @@ input[type="email"]{
     position: relative;
     margin-top: 20px;
     height: 48px;
-    width: 370px;
-    padding-left:20px;
-    border:solid 1px black;
+    width: 330px;
+    padding-left: 20px;
+    border: solid 1px black;
 }
 
-input[type="image"]{
+.castom-input a{
     position: absolute;
-    margin: -34px 0px 0px 350px;
+    margin: 37px 0px 0px -40px;
 }
+
+
+
+
+
 .foot{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 38px;  
-    background-color: #f7f7f7";
+    padding-bottom: 30px; 
+    background-color:#F7F7F7;
 }
 
 .foot_p1{
@@ -563,5 +595,11 @@ input[type="image"]{
     line-height: 26px;
     text-transform: uppercase;
     }
-
+.footer_icons{
+    color:rgba(108, 108, 108, 1);
+    font-size: 28px;
+}
+.footer_icons:hover{
+    color:rgba(33, 33, 33, 1);
+}
     

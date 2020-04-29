@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.padding-site{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 63px;
+}
+.slider{
+    height: 360px;
+    background-color: #F5F5F5;
+}
+.menu{
+    float: right;
+
+}
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+.menu li a{
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu li a:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+.slider-trendin{
+    font-family: 'Montserrat';
+    font-size: 62px;
+    font-weight: 100;
+    color: rgba(33, 33, 33, 1);
+    line-height: 72px;
+    margin-top: 170px;
+}
+.maine_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info_block{
+    margin-top: 71px;
+    margin-bottom: 122px;
+    /* margin-right: 30px; */
+    border: 1px solid black;
+    width: 370px;
+    height: 370px;
+}
+.gps{
+    margin-top: 48px;
+    margin-left: 166px;
+}
+.city{
+    margin-top: 33px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.a_inf{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    text-align: center;
+    line-height: 20px;
+}
+.b_inf{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    text-align: center;
+    line-height: 20px;
+}
+.info_box .inf{
+    margin-top: 12px;
+}
+
+.footer{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f8;
+}
+.contact{
+    height: 139px;
+    width: 221px;
+}
+.footer_inf_a{
+text-decoration: none;
+list-style-type: none;
+color: black;
+}
+.footer_inf_a:hover{
+    border-bottom: 1px solid black;
+}
+.content-trendin{
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.cont_info{
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(33, 33, 33, 1);
+}
+.con-2{
+    padding-top:29px;
+}
+
+.use_info{
+    display: inline-block;
+    height: 125px;
+    width: 470px;
+}
+
+.f_tabel{
+    float: left;
+    margin-top: 15px;
+    height: 106px;
+    width: 235px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.s_table{
+    float: right;
+    margin-top: 15px;
+    height: 106px;
+    width: 235px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 1);
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.stay_touch{
+    height: 147px;
+    width: 370px;
+}
+.cot_stay{
+    margin-top: 15px;
+    height: 42px;
+    width: 370px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(33, 33, 33, 1);
+    line-height: 22px;
+}
+
+input[type="email"]{
+    position: relative;
+    margin-top: 20px;
+    height: 48px;
+    width: 330px;
+    padding-left: 20px;
+    border: solid 1px black;
+}
+
+.castom-input a{
+    position: absolute;
+    margin: 37px 0px 0px -40px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;  
+    background-color: #f7f7f8;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.foot_p1{
+    height: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    letter-spacing: 0.05em;
+    line-height: 26px;
+    text-transform: uppercase;
+    }
+.footer_icons{
+color:rgba(108, 108, 108, 1);
+font-size: 28px;
+}
+.footer_icons:hover{
+color:rgba(33, 33, 33, 1);
+}
